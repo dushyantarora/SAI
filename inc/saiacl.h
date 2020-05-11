@@ -175,13 +175,13 @@ typedef enum _sai_acl_action_type_t
     /** Set Packet Src IPv4 Address */
     SAI_ACL_ACTION_TYPE_SET_SRC_IP,
 
-    /** Set Packet Src IPv4 Address */
+    /** Set Packet Dst IPv4 Address */
     SAI_ACL_ACTION_TYPE_SET_DST_IP,
 
     /** Set Packet Src IPv6 Address */
     SAI_ACL_ACTION_TYPE_SET_SRC_IPV6,
 
-    /** Set Packet Src IPv6 Address */
+    /** Set Packet Dst IPv6 Address */
     SAI_ACL_ACTION_TYPE_SET_DST_IPV6,
 
     /** Set Packet DSCP */
@@ -193,7 +193,7 @@ typedef enum _sai_acl_action_type_t
     /** Set Packet L4 Src Port */
     SAI_ACL_ACTION_TYPE_SET_L4_SRC_PORT,
 
-    /** Set Packet L4 Src Port */
+    /** Set Packet L4 Dst Port */
     SAI_ACL_ACTION_TYPE_SET_L4_DST_PORT,
 
     /** Set ingress packet sampling */
